@@ -1,0 +1,7 @@
+python
+cd C:\Users\user\Desktop\python_blog
+仮想環境に入るコマンド　myenv\Scripts\activate
+仮想環境に出るコマンド　deactivate
+
+インストール済みパッケージ
+pip install requests
