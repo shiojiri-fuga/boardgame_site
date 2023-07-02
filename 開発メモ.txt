@@ -1,3 +1,19 @@
+mysql
+サーバー起動コマンド　net start mysql57
+接続コマンドmysql -u root -p
+パスワードfuga1215
+ホスト localhost
+ポート 3306
+ユーザー名root
+データベース名 boardgame_blog
+
+開発サーバー起動コマンド
+python manage.py runserver
+
+データベース関係
+migrationの作成　python manage.py makemigrations app_name(backend)
+migrateの実行　python manage.py migrate
+
 python
 cd C:\Users\user\Desktop\python_blog
 仮想環境に入るコマンド　myenv\Scripts\activate
@@ -5,3 +21,10 @@ cd C:\Users\user\Desktop\python_blog
 
 インストール済みパッケージ
 pip install requests
+pip install mysqlclient
+
+ユーザー
+スーパーユーザー作成　python manage.py createsuperuser
+Username admin
+Email admin@gmail.com
+Password admin

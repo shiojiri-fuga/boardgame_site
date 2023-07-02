@@ -1,0 +1,2 @@
+msgid "Boardgames"
+msgstr "ボードゲーム"
